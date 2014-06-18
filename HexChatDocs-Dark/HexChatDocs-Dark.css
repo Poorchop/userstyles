@@ -5,7 +5,7 @@ body {
     background-color: #222 !important;
 }
 
-/* dark gardient and navbar */
+/* dark gradient and navbar */
 .navbar-inner {
     background: linear-gradient(to bottom, #282828, #181818) !important;
     border-color: #333 !important;
@@ -79,7 +79,7 @@ pre {
 }
 
 /*
-  monokai syntax highlighting courtesy of GitHub Dark:
+  Monokai syntax highlighting courtesy of GitHub Dark:
   https://github.com/StylishThemes/GitHub-Dark
 */
 .highlight, .highlight pre:not(.diff-line-pre), .highlight table {
