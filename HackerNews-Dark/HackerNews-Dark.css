@@ -5,7 +5,7 @@ body {
     background-color: #262626 !important;
 }
 
-body > center > table {
+body > center > table, input, textarea {
     background-color: #222 !important;
 }
 
@@ -15,11 +15,16 @@ body > center > table > tbody > tr:first-child > td {
 
 /* Bright text */
 td.title a:link, span.comment font, span.comment font a:link, u a:link, span.yclinks a:link,
-    body:not([id]), td:nth-child(2):not(.subtext) > a:link {
+    body:not([id]), td:nth-child(2):not(.subtext) > a:link, input, textarea {
     color: #ccc !important;
 }
 
 .admin td {
     color: #aaa !important;
+}
+
+/* search box and comment box */
+input, textarea {
+    border: 1px solid #828282 !important;
 }
 }
