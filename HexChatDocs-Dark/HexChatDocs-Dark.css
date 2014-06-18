@@ -25,7 +25,8 @@ body {
 }
 
 /* headers and main page text */
-h1, h2, h3, h4, h5, h6, p, li, dt, blockquote, footer, th.field-name {
+h1, h2, h3, h4, h5, h6, p, li, dt, blockquote, 
+input.search-query, footer, th.field-name, td.field-body {
     color: #ccc !important;
 }
 
@@ -36,7 +37,7 @@ div.admonition {
 }
 
 div.admonition p {
-    color: #aaa !important;
+    color: #97c1da !important;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -67,6 +68,11 @@ table.docutils {
     border-color: #444 !important;
 }
 
+table.docutils tbody tr:hover td, 
+table.docutils tbody tr:hover th {
+    background-color: #1c1c1c !important;
+}
+
 /* code area border */
 pre {
     border-color: #555 !important;
@@ -77,40 +83,42 @@ pre {
   https://github.com/StylishThemes/GitHub-Dark
 */
 .highlight, .highlight pre:not(.diff-line-pre), .highlight table {
-    background:#272822 !important;color:#f8f8f2 !important;
+    background: #272822 !important;
+    color: #f8f8f2 !important;
 }
 .highlight .hll {
-    background-color:#49483e !important;
+    background-color: #49483e !important;
 }
 .highlight .err {
-    color:#960050 !important;background-color:#f8f8f2 !important;
+    background-color: #f8f8f2 !important;
+    color: #960050 !important;
 }
 .highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs {
-    color:#75715e !important;
+    color: #75715e !important;
 }
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, 
 .highlight .kt, .highlight .no {
-    color:#66d9ef !important;
+    color: #66d9ef !important;
 }
 .highlight .l, .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, 
 .highlight .mo, .highlight .se, .highlight .il {
-    color:#ae81ff !important;
+    color: #ae81ff !important;
 }
 .highlight .n, .highlight .p, .highlight .nb, .highlight .ni, .highlight .nl,
 .highlight .nn, .highlight .py, .highlight .nv,.highlight .w, .highlight .bp,
 .highlight .vc, .highlight .vg, .highlight .vi {
-    color:#f8f8f2 !important;
+    color: #f8f8f2 !important;
 }
 .highlight .o, .highlight .kn, .highlight .nt, .highlight .ow {
-    color:#f92672 !important;
+    color: #f92672 !important;
 }
 .highlight .ld, .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, 
 .highlight .s2, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, 
 .highlight .s1, .highlight .ss {
-    color:#e6db74 !important;
+    color: #e6db74 !important;
 }
 .highlight .na, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, 
 .highlight .nx {
-    color:#a6e22e !important;
+    color: #a6e22e !important;
 }
 }
