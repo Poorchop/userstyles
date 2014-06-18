@@ -1,0 +1,116 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("hexchat.readthedocs.org") {
+
+body {
+    background-color: #222 !important;
+}
+
+/* dark gardient and navbar */
+.navbar-inner {
+    background: linear-gradient(to bottom, #282828, #181818) !important;
+    border-color: #333 !important;
+}
+
+.navbar .brand {
+    color: #ccc !important;
+    text-shadow: 0 1px 0 #000 !important;
+}
+
+.navbar .nav > li > a {
+    text-shadow: 0 1px 0 #000 !important;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #ddd !important;
+}
+
+/* headers and main page text */
+h1, h2, h3, h4, h5, h6, p, li, dt, blockquote, footer, th.field-name {
+    color: #ccc !important;
+}
+
+/* important notes */
+div.admonition {
+    background: linear-gradient(to bottom, #182030, #183040) !important;
+    border: 1px solid #246 !important;
+}
+
+div.admonition p {
+    color: #aaa !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+/* quick search */
+input.search-query {
+    background-color: #222 !important;
+    border-color: #555 !important;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #282828, #181818) !important;
+    border-bottom-color: #5c5c5c !important;
+    border-left-color: #555 !important;
+    border-right-color: #595959 !important;
+    border-top-color: #555 !important;
+    box-shadow: none !important;
+    color: #ccc !important;
+    text-shadow: 0 1px 0 #000 !important;
+}
+
+/* tables */
+tr.field-odd.field > th.field-name, tr.field-odd.field > td.field-body {
+    background-color: #1e1e1e !important;
+    color: #ccc !important;
+}
+
+table.docutils {
+    border-color: #444 !important;
+}
+
+/* code area border */
+pre {
+    border-color: #555 !important;
+}
+
+/*
+  monokai syntax highlighting courtesy of GitHub Dark:
+  https://github.com/StylishThemes/GitHub-Dark
+*/
+.highlight, .highlight pre:not(.diff-line-pre), .highlight table {
+    background:#272822 !important;color:#f8f8f2 !important;
+}
+.highlight .hll {
+    background-color:#49483e !important;
+}
+.highlight .err {
+    color:#960050 !important;background-color:#f8f8f2 !important;
+}
+.highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs {
+    color:#75715e !important;
+}
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, 
+.highlight .kt, .highlight .no {
+    color:#66d9ef !important;
+}
+.highlight .l, .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, 
+.highlight .mo, .highlight .se, .highlight .il {
+    color:#ae81ff !important;
+}
+.highlight .n, .highlight .p, .highlight .nb, .highlight .ni, .highlight .nl,
+.highlight .nn, .highlight .py, .highlight .nv,.highlight .w, .highlight .bp,
+.highlight .vc, .highlight .vg, .highlight .vi {
+    color:#f8f8f2 !important;
+}
+.highlight .o, .highlight .kn, .highlight .nt, .highlight .ow {
+    color:#f92672 !important;
+}
+.highlight .ld, .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, 
+.highlight .s2, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, 
+.highlight .s1, .highlight .ss {
+    color:#e6db74 !important;
+}
+.highlight .na, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, 
+.highlight .nx {
+    color:#a6e22e !important;
+}
+}
