@@ -1,22 +1,18 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("hexchat.readthedocs.org") {
 
-body {
+/* base background color */
+body, input.search-query {
     background-color: #222 !important;
 }
 
 /* dark gradient and navbar */
-.navbar-inner {
+.navbar-inner, .btn {
     background: linear-gradient(to bottom, #282828, #181818) !important;
     border-color: #333 !important;
 }
 
-.navbar .brand {
-    color: #ccc !important;
-    text-shadow: 0 1px 0 #000 !important;
-}
-
-.navbar .nav > li > a {
+.navbar .brand, .navbar .nav > li > a, .btn {
     text-shadow: 0 1px 0 #000 !important;
 }
 
@@ -24,9 +20,10 @@ body {
     color: #ddd !important;
 }
 
-/* headers and main page text */
-h1, h2, h3, h4, h5, h6, p, li, dt, blockquote, 
-input.search-query, footer, th.field-name, td.field-body {
+/* main text color */
+h1, h2, h3, h4, h5, h6, p, li, dt, blockquote, footer, input.search-query, .btn, th.field-name, 
+td.field-body, tr.row-even, tr.row-odd, .navbar .brand, .btn, table.docutils tbody tr:nth-child(2n+1) td, 
+table.docutils tbody tr:nth-child(2n+1) th {
     color: #ccc !important;
 }
 
@@ -41,41 +38,31 @@ div.admonition p {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
-/* quick search */
-input.search-query {
-    background-color: #222 !important;
+/* quick search and code area borders */
+input.search-query, pre {
     border-color: #555 !important;
 }
 
 .btn {
-    background: linear-gradient(to bottom, #282828, #181818) !important;
     border-bottom-color: #5c5c5c !important;
     border-left-color: #555 !important;
     border-right-color: #595959 !important;
     border-top-color: #555 !important;
     box-shadow: none !important;
-    color: #ccc !important;
-    text-shadow: 0 1px 0 #000 !important;
 }
 
 /* tables */
-tr.field-odd.field > th.field-name, tr.field-odd.field > td.field-body {
+table.docutils tbody tr:nth-child(2n+1) td, table.docutils tbody tr:nth-child(2n+1) th {
     background-color: #1e1e1e !important;
-    color: #ccc !important;
 }
 
-table.docutils {
+table.docutils, table.docutils th, table.docutils td {
     border-color: #444 !important;
 }
 
 table.docutils tbody tr:hover td, 
 table.docutils tbody tr:hover th {
     background-color: #1c1c1c !important;
-}
-
-/* code area border */
-pre {
-    border-color: #555 !important;
 }
 
 /*
