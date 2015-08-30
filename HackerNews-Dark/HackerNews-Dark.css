@@ -14,8 +14,9 @@ body > center > table > tbody > tr:first-child > td {
 }
 
 /* Bright text */
-td.title a:link, span.comment font, span.comment font a:link, u a:link, span.yclinks a:link, body:not([id]), 
-td:nth-child(2):not(.subtext) > a:link, input, textarea, p > a, a > u, .c00, .c00 a:link {
+td.title a:link, span.comment font, span.comment font a:link, u a:link, span.yclinks a:link, body:not([id]),
+td:nth-child(2):not(.subtext) > a:link, input, textarea, p > a, a > u, .c00, .c00 a:link,
+a[href="http://www.ycombinator.com/apply/"] {
     color: #ccc !important;
 }
 
