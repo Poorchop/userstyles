@@ -1,0 +1,11 @@
+/* Rectangular tabs without unnecessary margins */
+.tab-background {
+	--tab-border-radius: 0 !important;;
+	--proton-tab-block-margin: 0 !important;;
+}
+
+/* Remove excessive menu item padding */
+toolbarbutton {
+	padding-top: unset !important;
+	padding-bottom: unset !important;
+}
