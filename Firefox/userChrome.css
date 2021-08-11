@@ -1,25 +1,11 @@
 /* Rectangular tabs without unnecessary margins */
 .tab-background {
 	--tab-border-radius: 0;
-	--proton-tab-block-margin: 0;
+	--tab-block-margin: 0;
 }
 
 /* Remove excessive menu item padding, make menu items clickable up to margin */
-toolbarbutton.subviewbutton:not(#appMenu-fxa-label2):not(#appMenu-zoomReduce-button2):not(#appMenu-zoomReset-button2):not(#appMenu-zoomEnlarge-button2):not(#appMenu-fullscreen-button2) {
-	margin-left: unset !important;
-	margin-right: unset !important;
-	padding: 0 16px !important;
-}
-
-/* Reduce password save prompt padding and margins */
-.popup-notification-body-container {
-	padding-bottom: 0 !important;
-}
-
-.password-notification-label {
-	margin-block-start: 8px !important;
-}
-
-.popup-notification-button-container {
-	margin: 0 16px 16px !important;
+.subviewbutton:not(.toolbaritem-combined-buttons) {
+	--arrowpanel-menuitem-margin: 0;
+	--arrowpanel-menuitem-padding: 0 16px;
 }
