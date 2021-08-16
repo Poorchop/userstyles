@@ -1,0 +1,47 @@
+@media (min-width: 841px) {
+	.header {
+		height: 40px;
+	}
+
+	.header > .item {
+		padding: 0;
+	}
+
+	.header > .item.title h1 {
+		font-size: 1em;
+		margin: 0;
+	}
+
+	.header > .item.title .logo {
+		height: 25px;
+		width: 25px;
+	}
+
+	.header > .item.search input {
+		padding: 1px 5px;
+	}
+
+	a.btn, .stick .btn {
+		min-height: 20px;
+		line-height: 20px;
+	}
+
+	.tree-folder-title {
+		font-size: 0.9rem;
+		line-height: 2rem;
+		padding: 0 5px;
+	}
+
+	.aside_feed .category .title:not([data-unread="0"])::after {
+		font-size: 0.8rem;
+		margin: 5px 0;
+	}
+
+	#nav_entries {
+		border-top: 1px solid #333;
+	}
+
+	.flux_header .title {
+		font-size: 0.8rem;
+	}
+}
